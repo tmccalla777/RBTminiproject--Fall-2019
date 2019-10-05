@@ -1,2 +1,2 @@
-# Myminiproject
+# Classminiproject
 class project for collaboration
