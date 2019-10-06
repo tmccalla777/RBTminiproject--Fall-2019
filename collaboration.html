@@ -17,6 +17,7 @@
 <li>  Keep it public, and do not “Initialize this repository with a README”. Don’t change anything else.
 
   Click “Create repository”.</li>
+  <img src="newRepo.png">
 
   Next you’ll see the setup page.
 
@@ -73,11 +74,14 @@ To start, branches should always represent features. For example, if you want to
 It’s also important when collaborating that your team picks features that don’t have overlapping code. For example, you shouldn’t be working on a “user_login” branch at the same time that your teammate is working on a “user_logout” branch because the chances that you’re working on the same files and are writing overlapping code are very high.
 
 In your terminal create a new branch:
-
  Adding the “-b” and a name at the end creates a new branch and then moves into that new branch.
+<p>Branches allow you to move back and forth between 'states' of a project. For instance, if you want to add a new page to your website you can create a new branch just for that page without affecting the main part of the project. Once you're done with the page, you can merge your changes from your branch into the master branch. When you create a new branch, Git keeps track of which commit your branch 'branched' off of, so it knows the history behind all the files.    </p>
 
-  </<body>
+<p>After running the above command, you can use the git branch command to confirm that your branch was created:
+ Branching can lead to merge conflict. This is when there is a change in one file that conflicts with a change in another file and git can't figure out which version to use. You'll have to manually go in and tell git which version to use.
 
-    </html>
+
+</p>
   </body>
 
+    </html>
