@@ -2,8 +2,8 @@
 Class Project for Collaboration
 
 Group Members
-Bikramjeet Sandhu
-Tamara Mccalla 
+Bikramjeet Sandhu,
+Tamara Mccalla, 
 Riya Desai 
 
 Project Description
