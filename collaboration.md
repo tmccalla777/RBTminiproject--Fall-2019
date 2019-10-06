@@ -8,7 +8,7 @@ Create a new project/directory from the command line
 	Keep it public, and do not “Initialize this repository with a README”. Don’t change anything else.
 	
 	  Click “Create repository”.
-	  <img src="newRepo.png">
+	  :newRepo.png
 	
 	  Next you’ll see the setup page.
 	
@@ -28,7 +28,7 @@ Create a new project/directory from the command line
 
 	
 	Step 2: Setup Your Team
-	<p>You’re going to need to add your team to your repo so they can collaborate.
+	You’re going to need to add your team to your repo so they can collaborate.
 	
 	Once your team is added as collaborators they’ll be able to push, merge, and a ton of other things so make sure you’re only adding your teammates.
 	
