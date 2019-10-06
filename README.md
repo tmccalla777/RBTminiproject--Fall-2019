@@ -6,7 +6,7 @@ Class Project for Collaboration
 ### Tamara Mccalla,
 ### Riya Desai
 
-# Section - 1 Command [Link](https://github.com/tmccalla777/RBTminiproject--Fall-2019/blob/master/Section%20-commands.md :point_left:
+# Section - 1 Command [Link](https://github.com/tmccalla777/RBTminiproject--Fall-2019/blob/master/Section%20-vicommands.md :point_left:
 
 Section that explains commands and gives example(s) usage for use Vi (Links to an external site.) to create and edit files on Linux and the basic commands that you need to manage the file system:
 

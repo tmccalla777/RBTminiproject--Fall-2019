@@ -1,6 +1,6 @@
 # Sources
 
-### Section 1 - Command - [Link](https://github.com/tmccalla777/RBTminiproject--Fall-2019/blob/master/Section%20-commands.md)
+### Section 1 - Command - [Link](https://github.com/tmccalla777/RBTminiproject--Fall-2019/blob/master/Section%20-vicommands.md)
 - *Source 1*: []()
 - *Source 2*
 - *Source 3*
