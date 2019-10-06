@@ -9,3 +9,8 @@ The cd command is used to navigate to different directories. It can be used to g
 
 The mkdir command is used to create a new directory (mkdir is usually followed by the new name of the directory) in the current working directory. We do it when we want to structure the code/files in our project to be organized, so we can find the parts of the code whenever we need to access. The implementation is simple, say we would like to make a directory called testing:
 "mkdir testing" will then create a folder callled testing in our current working directory.
+
+3. CP
+The cp command is used to create a copy from file A to file B. It creates the file in the current directory and is a very straightforward and easy command. For example, if we wanted to create file B as a copy of file A, we could do the following:
+"cp fileA fileB"
+It is very very simple to use!
