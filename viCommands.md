@@ -42,7 +42,8 @@ The **history** command will return the command history since logging into the c
 
 ### Home Directory and File Paths in Linux
 When using Unix/Linux, we come across the challenge of having to navigate through multiple directories in order to retrieve the file(s) or complete the tasks required. However, navigating through these paths can become tricky and cumbersome. There are absolute paths and relative paths when we are dealing with file paths, where we use the absolute path name to define the specific location of a file or directory from the root. We use / marks after every directory name in order to navigate through each sublevel of the current working directory. The relative path defines the path related to the present working directory where either a single dot . or double dots .. are used, in conjuncture with **cd** to navigate either up or down levels of the directory.
->Here is an example of how these file path concepts are used:
+
+Here is an example of how these file path concepts are used:  
 >__Relative Path example__
 >
 >$pwd  
@@ -60,6 +61,7 @@ When using Unix/Linux, we come across the challenge of having to navigate throug
 Read more about Absolute and Relative pathnames [here](https://www.geeksforgeeks.org/absolute-relative-pathnames-unix/)
 
 ### Using the Tab key to Complete File Paths
+When using the command line, there is a great feature that allows us to type what we want a bit faster. When one or more letters of a file or directory name are filled in, pressing the TAB key will autocomplete the name (in alphabetical order). For example, if we were to type _d_ then press tab, the first directory beginning with the letter _d_ will automatically be typed into the command line. Multiple Tab key presses will allow us to navigate through all available directories in the pwd containing _d_, and this shortcut can be used at any time. The purpose of this shortcut is to save valuable time, where instead of having to go back to get the spelling of a specific directory/file right we can allow the computer to search through the current directory and autocomplete our typing.
 
 #### Links for Further Reference
 [VI and UNIX Quick Reference Sheet](https://acm.cs.virginia.edu/data/viunix.html)  
