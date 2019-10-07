@@ -27,3 +27,9 @@ If you would like to move a file from a subdirectory to another subdirectory (wi
 "mv -i oldSubDirectory/currentFile newSubDirectory"
 If we would like to give the moved file a new name, we would do the following:
 "mv -i oldSubDirectory/currentFile newSubDirectory/newFile"
+
+6. RM
+
+7. History
+The history command will return the command history since logging into the command line. It is generally used to retrace one's steps and see which commands were used line by line. It is very easy to use this command, since all you need to do is type history as shown below:
+"history"
