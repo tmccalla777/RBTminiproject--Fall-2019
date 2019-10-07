@@ -39,3 +39,29 @@ In order to remove a non-empty subdirectory, the rm function can accept -r and -
 ### History
 The **history** command will return the command history since logging into the command line. It is generally used to retrace one's steps and see which commands were used line by line. It is very easy to use this command, since all you need to do is type history as shown below:
 >"history"
+
+### Home Directory and File Paths in Linux
+When using Unix/Linux, we come across the challenge of having to navigate through multiple directories in order to retrieve the file(s) or complete the tasks required. However, navigating through these paths can become tricky and cumbersome. There are absolute paths and relative paths when we are dealing with file paths, where we use the absolute path name to define the specific location of a file or directory from the root. We use / marks after every directory name in order to navigate through each sublevel of the current working directory. The relative path defines the path related to the present working directory where either a single dot . or double dots .. are used, in conjuncture with **cd** to navigate either up or down levels of the directory.
+>Here is an example of how these file path concepts are used:
+>__Relative Path example__
+>
+>$pwd
+>/home/test
+>$cd 123
+>/home/test/123
+
+>__Absolute Path example__
+>$pwd
+>/home/test
+>$cd /home/test/abc/123
+>$pwd
+>/home/test/abc/123
+
+Read more about Absolute and Relative pathnames [here](https://www.geeksforgeeks.org/absolute-relative-pathnames-unix/)
+
+### Using the Tab key to Complete File Paths
+
+#### Links for Further Reference
+[VI and UNIX Quick Reference Sheet](https://acm.cs.virginia.edu/data/viunix.html)
+[Introduction to Unix Commands](https://kb.iu.edu/d/afsk)
+
