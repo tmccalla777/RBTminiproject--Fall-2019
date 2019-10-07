@@ -18,3 +18,12 @@ It is very very simple to use!
 4. PWD
 The pwd commands reports the current working directory path. To use this command, the user only needs to type pwd on a new line and press enter to get the current directory returned. The command goes as follows:
 "pwd"
+
+5. MV
+The mv command will move a file directory, or can be used to rename a file. Make sure that -i is used to not overwrite an existing file. There are a few scenarios in which the mv command can be used.
+If you would like to rename a file in the same directory, you would write the following command:
+"mv -i oldFileName newFileName"
+If you would like to move a file from a subdirectory to another subdirectory (with both directories being subdirectories of the current directory in this example):
+"mv -i oldSubDirectory/currentFile newSubDirectory"
+If we would like to give the moved file a new name, we would do the following:
+"mv -i oldSubDirectory/currentFile newSubDirectory/newFile"
