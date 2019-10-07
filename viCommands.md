@@ -22,14 +22,17 @@ The **pwd** commands reports the current working directory path. To use this com
 The **mv** command will move a file directory, or can be used to rename a file. Make sure that -i is used to not overwrite an existing file. There are a few scenarios in which the mv command can be used.
 If you would like to rename a file in the same directory, you would write the following command:
 >"mv -i oldFileName newFileName"
+
 If you would like to move a file from a subdirectory to another subdirectory (with both directories being subdirectories of the current directory in this example):
 >"mv -i oldSubDirectory/currentFile newSubDirectory"
+
 If we would like to give the moved file a new name, we would do the following:
 >"mv -i oldSubDirectory/currentFile newSubDirectory/newFile"
 
 ###RM
 The **rm** command will remove a file, however -i should be used after typing rm in order to be asked to confirm the file deletion. This is to protect against any accidental file deletions, however it may happen. We do this if we would like to remove any files from within the console, and is a very easy command to use as show below:
 >"rm -i randomFile"
+
 In order to remove a non-empty subdirectory, the rm function can accept -r and -f tags that will remove each individual file within the subdirectory. This is different from rmdir because rmdir requests that the subdirectory must be empty. RM -rf will remove the directory and all subdirectory of the specified location:
 >"rm -rf oldDirectory"
 
