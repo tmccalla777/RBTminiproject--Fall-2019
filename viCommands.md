@@ -45,23 +45,23 @@ When using Unix/Linux, we come across the challenge of having to navigate throug
 >Here is an example of how these file path concepts are used:
 >__Relative Path example__
 >
->$pwd
->/home/test
->$cd 123
->/home/test/123
+>$pwd  
+>/home/test  
+>$cd 123  
+>/home/test/123  
 
 >__Absolute Path example__
->$pwd
->/home/test
->$cd /home/test/abc/123
->$pwd
->/home/test/abc/123
+>$pwd  
+>/home/test  
+>$cd /home/test/abc/123  
+>$pwd  
+>/home/test/abc/123  
 
 Read more about Absolute and Relative pathnames [here](https://www.geeksforgeeks.org/absolute-relative-pathnames-unix/)
 
 ### Using the Tab key to Complete File Paths
 
 #### Links for Further Reference
-[VI and UNIX Quick Reference Sheet](https://acm.cs.virginia.edu/data/viunix.html)
+[VI and UNIX Quick Reference Sheet](https://acm.cs.virginia.edu/data/viunix.html)  
 [Introduction to Unix Commands](https://kb.iu.edu/d/afsk)
 
