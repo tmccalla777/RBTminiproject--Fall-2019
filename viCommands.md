@@ -29,6 +29,10 @@ If we would like to give the moved file a new name, we would do the following:
 "mv -i oldSubDirectory/currentFile newSubDirectory/newFile"
 
 6. RM
+The rm command will remove a file, however -i should be used after typing rm in order to be asked to confirm the file deletion. This is to protect against any accidental file deletions, however it may happen. We do this if we would like to remove any files from within the console, and is a very easy command to use as show below:
+"rm -i randomFile"
+In order to remove a non-empty subdirectory, the rm function can accept -r and -f tags that will remove each individual file within the subdirectory. This is different from rmdir because rmdir requests that the subdirectory must be empty. RM -rf will remove the directory and all subdirectory of the specified location:
+"rm -rf oldDirectory"
 
 7. History
 The history command will return the command history since logging into the command line. It is generally used to retrace one's steps and see which commands were used line by line. It is very easy to use this command, since all you need to do is type history as shown below:
