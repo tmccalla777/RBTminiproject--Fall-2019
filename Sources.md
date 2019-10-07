@@ -1,8 +1,8 @@
 # Sources
 
 ### Section 1 - Command - [Link](https://github.com/tmccalla777/RBTminiproject--Fall-2019/blob/master/Section%20-vicommands.md)
-- *Source 1*: []()
-- *Source 2*
+- *Source 1*: [Link for Source 1](https://acm.cs.virginia.edu/data/viunix.html)
+- *Source 2*: [Link for Source 2](https://kb.iu.edu/d/afsk)
 - *Source 3*
 
 ### Section 2 - GitFlow and Workflow - [Link](https://github.com/tmccalla777/RBTminiproject--Fall-2019/blob/master/Section%20-commands.md)
