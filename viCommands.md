@@ -14,3 +14,7 @@ The mkdir command is used to create a new directory (mkdir is usually followed b
 The cp command is used to create a copy from file A to file B. It creates the file in the current directory and is a very straightforward and easy command. For example, if we wanted to create file B as a copy of file A, we could do the following:
 "cp fileA fileB"
 It is very very simple to use!
+
+4. PWD
+The pwd commands reports the current working directory path. To use this command, the user only needs to type pwd on a new line and press enter to get the current directory returned. The command goes as follows:
+"pwd"
