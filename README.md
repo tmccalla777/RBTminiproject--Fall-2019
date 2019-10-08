@@ -2,9 +2,9 @@
 Class Project for Collaboration
 ![Image of Yaktocat](https://octodex.github.com/images/filmtocat.png)
 ## Group Members
-### Bikramjeet Sandhu,
-### Tamara Mccalla,
-### Riya Desai
+### Bikramjeet Sandhu,:man_student:
+### Tamara Mccalla, :woman_student:
+### Riya Desai :man_student:
 
 # Section - 1 Command [Link](https://github.com/tmccalla777/RBTminiproject--Fall-2019/blob/master/viCommands.md):point_left:
 
