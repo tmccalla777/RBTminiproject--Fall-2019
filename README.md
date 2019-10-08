@@ -1,6 +1,7 @@
 # Classminiproject
 Class Project for Collaboration
-
+![Image of Collaboration]
+(https://s3.amazonaws.com/wordpress-production/wp-content/uploads/2014/06/Collaboration_words_quoates.jpg)
 ## Group Members
 ### Bikramjeet Sandhu,
 ### Tamara Mccalla,
