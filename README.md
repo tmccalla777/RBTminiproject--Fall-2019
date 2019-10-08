@@ -4,7 +4,7 @@ Class Project for Collaboration
 ## Group Members
 ### Bikramjeet Sandhu,:man_student:
 ### Tamara Mccalla, :woman_student:
-### Riya Desai :man_student:
+### Riya Desai :woman_student:
 
 # Section - 1 Commands 
 [Link](https://github.com/tmccalla777/RBTminiproject--Fall-2019/blob/master/viCommands.md):point_left:
