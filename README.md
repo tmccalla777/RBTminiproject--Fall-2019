@@ -42,7 +42,7 @@ Explain the gitFlow (Links to an external site.) workflow and have a section to 
 12. Master Branch
 
 # Section - 3 Collaboration
-[Link](https://github.com/tmccalla777/RBTminiproject--Fall-2019/blob/master/Section%20-%203%20Collaboration.md) :point_left:
+[Link](https://github.com/tmccalla777/RBTminiproject--Fall-2019/blob/master/collaboration.md) :point_left:
 
 Create a step by step tutorial that explains how to set up Git and work collaboratively with more than one person.  You must explain the concept of branching and how to to use branches to avoid merge conflicts, your tutorial must illustrate how to create a merge conflict and resolve the merge conflict.   
 
