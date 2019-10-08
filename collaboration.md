@@ -1,3 +1,5 @@
+# Setting up Github and Collaboraton
+
 ## Step1: Intitialize a New Project  
 Create a new project/directory from the command line
 eg. $ miniproject
@@ -83,26 +85,26 @@ cd REPOSITORY-NAME
 Generate a list of the files affected by the merge conflict. In this example, the file styleguide.md has a merge conflict.
 
 $ git status
-> # On branch branch-b
-> # You have unmerged paths.
-> #   (fix conflicts and run "git commit")
-> #
-> # Unmerged paths:
-> #   (use "git add ..." to mark resolution)
-> #
-> # both modified:      styleguide.md
-> #
+> On branch branch-b
+> You have unmerged paths.
+> (fix conflicts and run "git commit")
+> Unmerged paths:
+> (use "git add ..." to mark resolution)
+>
+> both modified:      styleguide.md
 > no changes added to commit (use "git add" and/or "git commit -a")
 Open your favorite text editor, such as Atom, and navigate to the file that has merge conflicts.
 
-To see the beginning of the merge conflict in your file, search the file for the conflict marker <<<<<<<. When you open the file in your text editor, you'll see the changes from the HEAD or base branch after the line <<<<<<< HEAD. Next, you'll see =======, which divides your changes from the changes in the other branch, followed by >>>>>>> BRANCH-NAME. 
+To see the beginning of the merge conflict in your file, search the file for the conflict marker.
+When you open the file in your text editor, you'll see the changes from the HEAD or base branch after the line< < HEAD. 
+Next, you'll see =======, which divides your changes from the changes in the other branch, followed by >>>>>>> BRANCH-NAME. 
 In this example, one person wrote "open an issue" in the base or HEAD branch and another person wrote "ask your question in IRC" in the compare branch or branch-a.
 
 If you have questions, please
 <<<<<<< HEAD open an issue
 =======
 ask your question in IRC.
->>>>>>> branch-a
+ branch-a
 Decide if you want to keep only your branch's changes, keep only the other branch's changes, or make a brand new change, which may incorporate changes from both branches. Delete the conflict markers <<<<<<<, =======, >>>>>>> and make the changes you want in the final merge. In this example, both changes are incorporated into the final merge:
 
 If you have questions, please open an issue or ask in our IRC channel if it's more urgent.
@@ -127,19 +129,17 @@ cd REPOSITORY-NAME
 Generate a list of the files affected by the merge conflict. In this example, the file README.md has a merge conflict.
 
 $ git status
-> # On branch master
-> # Your branch and 'origin/master' have diverged,
-> # and have 1 and 2 different commits each, respectively.
-> #  (use "git pull" to merge the remote branch into yours)
-> # You have unmerged paths.
-> #  (fix conflicts and run "git commit")
-> #
-> # Unmerged paths:
-> #  (use "git add/rm ..." as appropriate to mark resolution)
-> #
-> #	deleted by us:   README.md
-> #
-> # no changes added to commit (use "git add" and/or "git commit -a")
+> On branch master
+> Your branch and 'origin/master' have diverged, and have 1 and 2 different commits each, respectively.
+> (use "git pull" to merge the remote branch into yours)
+> You have unmerged paths.
+> (fix conflicts and run "git commit")
+> Unmerged paths:
+> (use "git add/rm ..." as appropriate to mark resolution)
+> 
+> deleted by us:   README.md
+>
+> no changes added to commit (use "git add" and/or "git commit -a")
 Open your favorite text editor, such as Atom, and navigate to the file that has merge conflicts.
 
 Decide if you want keep the removed file. You may want to view the latest changes made to the removed file in your text editor.
