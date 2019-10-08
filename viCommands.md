@@ -1,7 +1,7 @@
 ## Section 1 - Vi Commands
 
 #### Learn more about Vim from the official website 
-![Image](/images/Vim Logo.jpg)
+[![Image](/images/vimlogo.jpg)](www.vim.org)
 
 ### CD
 
