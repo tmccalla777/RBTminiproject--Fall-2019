@@ -6,7 +6,8 @@ Class Project for Collaboration
 ### Tamara Mccalla, :woman_student:
 ### Riya Desai :man_student:
 
-# Section - 1 Command [Link](https://github.com/tmccalla777/RBTminiproject--Fall-2019/blob/master/viCommands.md):point_left:
+# Section - 1 Commands 
+[Link](https://github.com/tmccalla777/RBTminiproject--Fall-2019/blob/master/viCommands.md):point_left:
 
 Section that explains commands and gives example(s) usage for use Vi (Links to an external site.) to create and edit files on Linux and the basic commands that you need to manage the file system:
 
@@ -23,7 +24,7 @@ Questions to answer: What is it? Why do you do it? How do you do it?
 9. Using the tab key to complete file paths
 10. Using up and down arrow for history
 
-# Section - 2 Gitflow and Workflow -
+# Section - 2 Gitflow and Workflow 
 [Link](https://github.com/tmccalla777/RBTminiproject--Fall-2019/blob/master/Section%20-%202%20Gitflow%20and%20Workflow.md) :point_left:
 
 Explain the gitFlow (Links to an external site.) workflow and have a section to define and give examples of how to use the following Git commands and terminology:
