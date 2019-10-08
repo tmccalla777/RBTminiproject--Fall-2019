@@ -51,3 +51,14 @@ Create a step by step tutorial that explains how to set up Git and work collabor
 2. Pull Request
 
 3.  Adding a collaborator to a Github Repo
+
+
+# Changelog
+- Tamara McCalla created new repository
+- Tamara McCalla created Readme
+- Tamara McCalla created Section
+- Tamara McCalla image to Readme
+- Tamara McCalla Section- Collaboration
+- Bikramjeet Sandhu Fixed link to Section 1
+- Bikramjeet Added definition of command
+- Bikramjeet ask definition of command
