@@ -1,7 +1,6 @@
 # Classminiproject
 Class Project for Collaboration
-![Image of Collaboration]
-(https://s3.amazonaws.com/wordpress-production/wp-content/uploads/2014/06/Collaboration_words_quoates.jpg)
+![Image of Yaktocat](https://octodex.github.com/images/filmtocat.png)
 ## Group Members
 ### Bikramjeet Sandhu,
 ### Tamara Mccalla,
