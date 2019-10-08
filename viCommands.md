@@ -1,5 +1,7 @@
 ## Section 1 - Vi Commands
 
+#### Learn more about Vim from the official website[![Image](/images/Vim Logo.png)](https://www.vim.org/)
+
 ### CD
 
 The **cd** command is used to navigate to different directories. It can be used to go up or down one level (using .. or /) in the directory,or can take the exact location of where we want to go as input and change our directory easily. We use CD to navigate our working directories to access files/locations that are vital to completing the task at hand! We can just use it by writing:
