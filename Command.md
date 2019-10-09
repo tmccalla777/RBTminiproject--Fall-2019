@@ -14,3 +14,25 @@ clone is used  to create a local copy on your computer and sync between the two 
 A fork is a copy of a repository. Forking a repository allows you to experiment with changes without interfearing the original project.It is mainly used to fix bug.Used to fetch updates from or submit changes to the original repository.
 You can navigate by:
 >In the top-right corner of the page, click Fork.
+
+## Branch
+It can be used to solve bug, experiment new ideas and develop other features. Each repository has one default branch, and can have multiple other branches. You can merge a branch into another branch. You can create or delete branches:
+>On GitHub, navigate to the main page of the repository. Click the branch selector menu.Type a unique name for your new branch, then select Create branch.
+
+## Commit
+Commits usually contain a commit message which is a brief description of what changes were made. It that allows you to keep record of what changes were made when and by who.At the bottom of the page, type a short, meaningful commit message that describes the change you made to the file. You can attribute the commit to more than one author in the commit message.
+
+## Merge
+Merging takes the changes from one branch (in the same repository or from a fork), and applies them into another. A merge can be done automaticallyor can be done via the command line.Check out the branch you wish to merge to. Usually, you will merge into master.
+> $ git checkout master
+You can push the merge to your GitHub repository.
+> $ git push origin master
+
+## Checkout
+The git checkout command lets you navigate between the branches created by git branch. it tells Git to record all new commits on that branch. It makes it easy to try new experiments without destroying existing functionality, and it makes it possible to work on many unrelated features at the same time.
+
+## Push
+Pushing refers to sending your committed changes to a remote repository, such as a repository hosted on GitHub. For instance, if you change something locally, you'd want to then push those changes so that others may access them.After creating a repository, copy the git commands under the “…or push an existing repository from the command line”, and paste them into the terminal. These commands will add a remote repository, and then push your local repository to the remote repository.
+
+## Pull
+Pull refers to when you are fetching in changes and merging them. For instance, if someone has edited the remote file you're both working on, you'll want to pull in those changes to your local copy so that it's up to date.A pull grabs any changes from the GitHub repository and merges them into your local repository.
