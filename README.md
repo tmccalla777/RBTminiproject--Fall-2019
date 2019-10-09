@@ -54,12 +54,15 @@ Create a step by step tutorial that explains how to set up Git and work collabor
 3.  Adding a collaborator to a Github Repo
 
 
-# Changelog
+## Section -4 Changelog
 - Tamara McCalla created new repository
 - Tamara McCalla created Readme
 - Tamara McCalla created Section
-- Tamara McCalla image to Readme
+- Tamara McCalla Task: added images to Readme
 - Tamara McCalla Section- Collaboration
 - Bikramjeet Sandhu Fixed link to Section 1
-- Bikramjeet Added definition of command
-- Bikramjeet ask definition of command
+- Bikramjeet Sandhu Added definition of command
+- Bikramjeet Sandhu Added explanation of file path navigation in Linux
+- Bikramjeet Sandu Feature: Added explanation of file path navigation in Linux
+- Bikramjeet Sandhu Fix: Updated Markdown for viCommands.md
+- Bikramjeet Sandhu Feature: Explanation for using up and down arrow for history
