@@ -1,5 +1,5 @@
-### Git Commands and Terminology
- Description on how to use the following Git commands and terminology:
+### Secton 2 : Git Commands and Terminology
+ Description on the following Git commands and terminology:
  
  
  ## Repository
@@ -36,3 +36,15 @@ Pushing refers to sending your committed changes to a remote repository, such as
 
 ## Pull
 Pull refers to when you are fetching in changes and merging them. For instance, if someone has edited the remote file you're both working on, you'll want to pull in those changes to your local copy so that it's up to date.A pull grabs any changes from the GitHub repository and merges them into your local repository.
+
+## Remote Add / Remove / Show
+To add a new remote, use the git remote add command on the terminal, in the directory your repository is stored at. The git remote add command takes two arguments: A remote name, for example, “origin” A remote URL, which you can find on the Source sub-tab of your Git repo.
+
+## Status
+A status is a type of status check on GitHub.Status checks are external processes, such as continuous integration builds, which run for each commit you make in a repository.The git status command displays the state of the working directory and the staging area. 
+
+## Master Branch
+The main branch — the one where all changes eventually get merged back into, and is called master. This is the official working version of your project, and the one you see when you visit the project repository at github. If you make changes to the master branch of a group project while other people are also working on it, it will affect everyone.
+
+
+## [Click Here to Return to the README](https://github.com/tmccalla777/RBTminiproject--Fall-2019/blob/master/README.md)
