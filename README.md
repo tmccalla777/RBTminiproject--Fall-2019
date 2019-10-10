@@ -66,3 +66,5 @@ Create a step by step tutorial that explains how to set up Git and work collabor
 - Bikramjeet Sandu Feature: Added explanation of file path navigation in Linux
 - Bikramjeet Sandhu Fix: Updated Markdown for viCommands.md
 - Bikramjeet Sandhu Feature: Explanation for using up and down arrow for history
+- Riya Desai added command file
+- Riya Desai Fix: Rename command file to Gitflow file
