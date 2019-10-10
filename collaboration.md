@@ -1,5 +1,7 @@
 # Setting up Github and Collaboraton
 
+ ### Online video tutorial [![Image](/images/youtube.png)](https://youtu.be/LR5BYZjuXMU)
+
 ## Step1: Intitialize a New Project  
 Create a new project/directory from the command line
 eg. $ miniproject
@@ -40,16 +42,18 @@ Forking will copy it in a new Repo to your Github page, but you don’t want tha
 
 And now you’re ready to collaborate!
 
+
+ 
 ## Step 3: Collaborating
 
 When you’re using git to work on the same project with multiple people, there’s one central rule you must follow:
 
- ## Online video tutorial [![Image](/images/youtube.png)](https://youtu.be/LR5BYZjuXMU)
- 
- **THE MASTER BRANCH SHOULD ALWAYS BE DEPLOYABLE**
+**THE MASTER BRANCH SHOULD ALWAYS BE DEPLOYABLE**
 
 The way to keep Master deployable is to create new branches for new features and merge them into Master when they’re completed.
 **Here’s how that works**
+
+Adding a collaborator to a GitHub repository is the way to work with cloning. Since cloning creates a disconnected copy of the repository on the contributor's local computer, they will need a way to upload any changed they make to the original repository. By adding an authorized person as a contributor, the creator of the project gives permission to another person to push commits to the repository.
 
  
  ## Step 3a: Branches
@@ -156,3 +160,13 @@ Commit your changes with a comment.
 
 $ git commit -m "Resolved merge conflict by keeping README.md file."
 > [branch-d 6f89e49] Merge branch 'branch-c' into branch-d
+
+## 1. Forking vs. Cloning
+### Forking
+Forking a repository is essentially creating a linked copy of a repo where you can make whatever changes you wish without having any effect on the original project. Once you make changes to your *forked* version of the repository, you can then submit a pull request which will allow you to contribute your proposed changes to the original project. A forked copy has a real connection to its original repo as opposed to a cloned copy.
+
+### Cloning
+Cloning a repository is like downloading an offline copy of the project that is not connected to the original in any way. You are downloading a specific iteration of the repository at a specific point in time and that is your local copy. When you make changes to this clone, you can then push the changes back to the original project, but only if you are added as an official contributor by the creator of the repository.
+
+## 2. Pull Request
+A pull request is how a contributor can share his changes to a repository with the rest of the group and to discuss what parts should be kept and added to the main repository and what should be discarded. This is a good way for the whole team to review the propose changes of a contributor and discuss how to proceed.
