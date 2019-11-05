@@ -1,6 +1,6 @@
-#Mini Project 2 Definitions of Terms
+# Mini Project 2 Definitions of Terms
 
-####How Python Uses Indentation to Control Flow
+#### How Python Uses Indentation to Control Flow
 Tabs are used in Python in order to order the execution of code, where this enhances the usability and usefulness of the 
 code being written (as well as organization).
 
@@ -20,23 +20,23 @@ for x in range(1,5):
 
 Here we can see how the tabs are used to order the execution of the loops, where we would like the nested if-then loop 
 to run AFTER the for loop.
-####Don't Repeat Yourself
+#### Don't Repeat Yourself
 The _Don't Repeat Yourself_ concept is used in software development to reduce repetition of code in order to ensure that
 code is organized and as efficient as possible. Removing duplicate code will make the code easier to read and much easier
 to maintain for future use.
 
 *More code = More processing*
-####Design Patterns from Gang of Four
+#### Design Patterns from Gang of Four
 The Design Patterns from the Gang of Four are broken up as show below...
 
-#####Creational Design Patterns
+##### Creational Design Patterns
 - Abstract Factory: Allows the creation of objects without specifying their type
 - Builder: Objects contain methods used to build/configure an object, where an object can be build and returned in
 various ways. This allows for the creation of complex objects, easily.
 - Prototype: Creates a new object from copying a pre-existing object.
 - Singleton: Ensures that only one object is created, eliminating the option of instantiating more than one object.
 
-#####Structural Design Patterns
+##### Structural Design Patterns
 - Adapter: Allows for two incompatible classes that share a similar purpose to work together transparently (using 
 abstraction).
 - Bridge: Defines two layers of abstraction, one for the target that can be extended for different types of receivers
@@ -52,7 +52,7 @@ have to worry about what is going on under the hood.
 the same definition or configuration.
 - Proxy: Provides a class with limited access to another class to increase security controls.
 
-#####Behavioral Design Patterns
+##### Behavioral Design Patterns
 - Chain of Responsibility: Sends problem to an object and if that object can't use it, then it sends it to an object
 chained to it that might. The object will have additional objects chained to it until it finds the corresponding object
 that can solve the problem.
@@ -74,32 +74,32 @@ template by overwriting methods.
 - Visitor: Allows you to perform the same action on many objects of different types without much alteration to their
 respective classes.
 
-####Class
+#### Class
 
-####Object
+#### Object
 
-####Static
+#### Static
 
-####Property/Attribute
+#### Property/Attribute
 
-####Method
+#### Method
 
-####Exception
+#### Exception
 
-####Unit Test
+#### Unit Test
 
-####Constructor
+#### Constructor
 
-####Factory
+#### Factory
 Standard way to create objects and daa structures that are following a pre-defined pattern. If we think about it, we are
 using a template in that the factory is producing the same object.
-####Decorator
+#### Decorator
 This allows all of the options/functionalities that an object can have, where we use decorators to assign these options.
 
 We can think about video games for example, where a character can be equipped with different objects and functions
 throughout the game, this can be done through the Decorator.
-####Extend Class
+#### Extend Class
 
-####CSV Files
+#### CSV Files
 
-####Reading Files
+#### Reading Files
