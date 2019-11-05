@@ -21,7 +21,11 @@ for x in range(1,5):
 Here we can see how the tabs are used to order the execution of the loops, where we would like the nested if-then loop 
 to run AFTER the for loop.
 ####Don't Repeat Yourself
+The _Don't Repeat Yourself_ concept is used in software development to reduce repetition of code in order to ensure that
+code is organized and as efficient as possible. Removing duplicate code will make the code easier to read and much easier
+to maintain for future use.
 
+*More code = More processing*
 ####Design Patterns from Gang of Four
 
 ####Class
