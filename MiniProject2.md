@@ -90,6 +90,18 @@ class ExampleClass:
 We can see here that the class encapsulates the function that prints the statement "Hello World", and this allows for
 organization of code where these objects can be referenced later in another part of the program.
 #### Object
+Objects, by definition, are an encapsulation of variables and functions into a singular unit, where objects go hand-in-hand
+with classes in that they receive their functions and variables from classes. Also, classes can be used to create objects,
+which can be very useful and is the backbone of Object Oriented Programming.
+
+An example of an object is shown below...
+
+myObject = classExample()
+print(myObject.object1)
+
+Here we have myObject referencing a class called classExample, and in classExample we can infer that it has a variable
+called object1 that is being called in the print statement that follows. Objects can take many different forms, with a
+multitude of uses and this is why they are so important to keep track of when writing code.
 
 #### Static
 
