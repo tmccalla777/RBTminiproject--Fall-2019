@@ -203,6 +203,16 @@ This allows all of the options/functionalities that an object can have, where we
 We can think about video games for example, where a character can be equipped with different objects and functions
 throughout the game, this can be done through the Decorator.
 #### Extend Class
+Extending a class is a basic concept of Inheritence, where a class that extends another class will inherit all of the 
+methods and properties of that class. A class can extend only one other class, however this concept in Object Oriented 
+Programming is very important in that it allows for the re-use of methods in one class without having to recreate them in 
+the current class.
+
+One very important thing to note:
+Say we have a class Student that extends another class called Person, to retrieve all of the properties of Person. We 
+can use the override() method to provide a different implementation for the existing method, which allows for many 
+different uses of a parent Class. The ability to do this makes Inheritance such an important and powerful concept, that 
+can save a lot of time for a programmer.
 
 #### CSV Files
 
