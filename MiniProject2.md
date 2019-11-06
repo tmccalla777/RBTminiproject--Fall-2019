@@ -146,7 +146,15 @@ testClass.testMethod()
 Note, there are different kinds of methods that can be used to alter the relationship between the class and the function!
 
 #### Exception
+By definition, an exception is an error that happens when a program is being executed, and wherever the error occurs Python 
+generates an exception to prevent the program from completely crashing. Exceptions are used as a means to handle errors.
+We can see an example of handling exceptions below...
 
+number = int(input("Please enter a number between 1 and 25"))
+>Please enter a number between 1 and 25
+
+Here, if we enter a value other than a number, such as a random character string, we will get an error thrown at the console
+along the lines of a *ValueError*, where the code is only going to execute if we input an _int_ value.
 #### Unit Test
 
 #### Constructor
