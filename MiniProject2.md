@@ -97,6 +97,7 @@ which can be very useful and is the backbone of Object Oriented Programming.
 An example of an object is shown below...
 
 myObject = classExample()
+
 print(myObject.object1)
 
 Here we have myObject referencing a class called classExample, and in classExample we can infer that it has a variable
