@@ -215,5 +215,27 @@ different uses of a parent Class. The ability to do this makes Inheritance such 
 can save a lot of time for a programmer.
 
 #### CSV Files
+A CSV file is known as a Comma Separated Values file, which is basically just a plain text file formatted to contain a 
+list of data. These files are useful when they are used to store a large amount of data, especially when that data is 
+going to be used in a software due to the nature of being easy to read. These files usually use the comma character (or others)
+to separate each data point.
+
+Having a data file where the data is already separated makes this the data file of choice when reading in values to a 
+program, since the separations in data makes it easy to iterate through CSV files.
 
 #### Reading Files
+In Python, we have the ability to read in files/file data natively without having to import any libraries or directories. 
+We can use the open() function to open a file that we would like to use or write to the file, followed by the mode 
+argument to decide how we would like to interact with the file, whether we are in reading mode, write mode, append mode, etc.
+We can use the file.read() function to display the text inside of a certain file, as shown below.
+
+testFile = open("Example.txt", "r")
+print testFile.read()
+
+or if we would like to read a text file one line at a time we would do the following....
+
+testFile = open("Example.txt","r")
+print testFile.readline()
+
+There are a multitude of different things we can do with reading in a file, and all of these make creating a program in 
+Python that much more powerful and versatile knowing what Python is capable of doing.
