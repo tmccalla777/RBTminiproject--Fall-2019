@@ -156,6 +156,19 @@ number = int(input("Please enter a number between 1 and 25"))
 Here, if we enter a value other than a number, such as a random character string, we will get an error thrown at the console
 along the lines of a *ValueError*, where the code is only going to execute if we input an _int_ value.
 #### Unit Test
+Unit Testing is a level of software testing that tests small parts of the software at a time, with the main purpose of 
+this is to validate that each individual unit of the software is working as it should.
+
+When the tests are run, there are only 3 states that are returned. We have:
+- OK
+- ERROR
+- FAIL
+
+When we get OK returned, then every test has been passed.
+
+When we get ERROR returned, then this means that the test has raised an Exception.
+
+When we get FAIL returned, then that means that there is a test(s) that did not pass.
 
 #### Constructor
 
