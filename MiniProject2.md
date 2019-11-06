@@ -87,7 +87,7 @@ class ExampleClass:
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print("Hello World")
 
-We cam see here that the class encapsulates the function that prints the statement "Hello World", and this allows for
+We can see here that the class encapsulates the function that prints the statement "Hello World", and this allows for
 organization of code where these objects can be referenced later in another part of the program.
 #### Object
 
