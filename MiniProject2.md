@@ -171,6 +171,28 @@ When we get ERROR returned, then this means that the test has raised an Exceptio
 When we get FAIL returned, then that means that there is a test(s) that did not pass.
 
 #### Constructor
+Constructors are used in Software Development to instantiate an object, where the constructor can assign values to a 
+member of a class. Using a constructor is a foundational concept in Object Oriented Programming.
+
+class TestClass:
+
+&nbsp;&nbsp;&nbsp;testObject = ""
+
+&nbsp;&nbsp;&nbsp;def _ init _(self):
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;self.testObject = "Hello World!"
+
+&nbsp;&nbsp;&nbsp;def print_testObject(self):
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print(self.testObject)
+
+object = TestClass()
+object.print_TestObject()
+>Hello World!
+
+Here we can see an example of the default constructor being used to reference the instance being constructed, and creating 
+the object within the class. Constructors are used in almost every programming language, and they are another backbone of 
+Object Oriented Programming.
 
 #### Factory
 Standard way to create objects and data structures that are following a pre-defined pattern. If we think about it, we are
