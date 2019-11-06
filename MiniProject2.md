@@ -105,7 +105,11 @@ called object1 that is being called in the print statement that follows. Objects
 multitude of uses and this is why they are so important to keep track of when writing code.
 
 #### Static
+The term _static_ refers to a variable or method that is accessible without instantiating it to a class. In fact, programs
+can run static methods without creating the object, which can be very useful in programming.
 
+An easy way to test this in Python is to use the _staticmethod()_ or _@staticmethod_ decorator to create a static function
+when wrapping it around a function/method that is to be converted.
 #### Property/Attribute
 
 #### Method
@@ -117,7 +121,7 @@ multitude of uses and this is why they are so important to keep track of when wr
 #### Constructor
 
 #### Factory
-Standard way to create objects and daa structures that are following a pre-defined pattern. If we think about it, we are
+Standard way to create objects and data structures that are following a pre-defined pattern. If we think about it, we are
 using a template in that the factory is producing the same object.
 #### Decorator
 This allows all of the options/functionalities that an object can have, where we use decorators to assign these options.
