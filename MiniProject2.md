@@ -129,6 +129,21 @@ is a fundamental concept in Object Oriented Programming that allows us to perfor
 to specific objects.
 
 #### Method
+To break this down, we can think of a method as a member/function of a class, and these methods provide an interface to 
+be used in other classes. This is the beauty of busing methods in Object Oriented Programming, where we are able to re-use
+a method in several different kinds of classes. Below we can see an example of what a method looks like...
+
+class testClass:
+
+&nbsp;&nbsp;&nbsp;def testMethod(self):
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print "Hello World!"
+
+testClass = testClass()
+testClass.testMethod()
+>"Hello World!"
+
+Note, there are different kinds of methods that can be used to alter the relationship between the class and the function!
 
 #### Exception
 
