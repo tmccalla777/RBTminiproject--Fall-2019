@@ -111,6 +111,22 @@ can run static methods without creating the object, which can be very useful in 
 An easy way to test this in Python is to use the _staticmethod()_ or _@staticmethod_ decorator to create a static function
 when wrapping it around a function/method that is to be converted.
 #### Property/Attribute
+In general programming, an Attribute is a specification that defines a property of an object or file. We can see an example
+of an attribute below...
+
+def test();
+
+&nbsp;&nbsp;&nbsp;pass
+
+setattr(test, 'name', 'Bikram')
+
+print(getattr(test, 'name'))
+
+> Bikram
+
+We can see here that Bikram get's returned once we call for the name attribute we have defined for our test object. This 
+is a fundamental concept in Object Oriented Programming that allows us to perform different functions by assigning attributes
+to specific objects.
 
 #### Method
 
